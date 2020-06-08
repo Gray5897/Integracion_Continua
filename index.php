@@ -20,21 +20,16 @@ switch (@$_REQUEST['option']) {
         header('location:?option=login.php');
 		break;
 	default:
-
 		$include='login.php';
 		break;
 }
  ?> 
-
 <!DOCTYPE html>
 <html lang="es">
 <head id="wrapper">
 	<title>MYBIKE</title>
 </head>
 <body>
-
 		<?php include ($include); ?>
-
-
 </body>
 </html>
