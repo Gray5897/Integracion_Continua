@@ -29,7 +29,6 @@ switch (@$_REQUEST['option']) {
 <!DOCTYPE html>
 <html lang="es">
 <head id="wrapper">
-	<title>MYBIKE</title>
 </head>
 <body>
 
